@@ -1,0 +1,16 @@
+{
+  "name": "matrixbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "olm": "https://matrix.org/packages/npm/olm/olm-2.2.2.tgz",
+    "babel-runtime": "6.26.0",
+    "matrix-js-sdk": "0.8.4"
+  }
+}
