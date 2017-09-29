@@ -12,10 +12,10 @@ This is a very simple example of a chat bot which can be butchered however.
 ## Requirements
 * Node >=8.0.0
 * NPM
-* Valid accessToken and user name ()
+* Valid accessToken and user name (https://reeve.xyz/getting-started-with-matrix-bots-on-nodejs/)
 
 ## Running
-Update config as per link above
+Update config as per https://reeve.xyz/getting-started-with-matrix-bots-on-nodejs/
 ```bash
 > npm i
 > npm start
