@@ -1,11 +1,12 @@
 module.exports = {
-    "say [words]": function say({
-        words
+    "say [words] to [target]": function say({
+        words,
+        target
     }, roomName, event, client) {
         console.log('from game.js', words);
-        client.sendTextMessage(roomName, 'Boom... ' + words);
+        client.sendTextMessage(roomName, `${target}: ${words}`);
     },
-    "add [a] [b]": function ({
+    "add [a] [b]": function add ({
         a,
         b
     }, roomName, event, client) {
